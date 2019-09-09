@@ -1,0 +1,32 @@
+@keyframes scale_in {
+  0% {
+    transform: scaleY(0); }
+  100% {
+    transform: scaleY(1); } }
+
+@-webkit-keyframes hinge {
+  from {
+    -webkit-transform: rotateY(90deg); }
+  top {
+    -webkit-transform: rotateY(90deg); } }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px); }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); } }
+
+@keyframes come-in {
+  to {
+    transform: translateY(0); } }
+
+/*# sourceMappingURL=style2.css.map */
